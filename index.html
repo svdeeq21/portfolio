@@ -376,20 +376,20 @@
             </div>
 
             <div class="contact-form">
-                <form action="">
+                <form action="https://formspree.io/f/xkgjoenr" method="post">
                     <div class="form-grid">
                         <div class="grid-left">
-                            <input type="text" required placeholder="Full Name" autocomplete="off">
-                            <input type="email" required placeholder="Email Address" autocomplete="off">
-                            <input type="text" required placeholder="Subject" autocomplete="off">
+                            <input name="name" type="text" required placeholder="Full Name" autocomplete="off">
+                            <input name="email" type="email" required placeholder="Email Address" autocomplete="off">
+                            <input name="subject" type="text" required placeholder="Subject" autocomplete="off">
                         </div>
 
                         <div class="grid-right">
-                            <textarea placeholder="Your Message"></textarea>
+                            <textarea name="message" placeholder="Your Message"></textarea>
                         </div>
                     </div>
 
-                    <a href="#" class="btn-primary">Send Message</a>
+                    <button style="background-color: #ff864a;" type="submit" href="#" class="btn-primary">Send Message</button>
                 </form>
             </div>
         </section>
